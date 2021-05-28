@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+
+    <title>CADASTRO</title>
+</head>
+
+<body>
+
+    <div id="conteinergeral">
+
+        <div id="menu-lateral">
+            <div id="logo"><img src="./imagens/logo.png" alt=""></div>
+            <div id="menu-home" class="icone-lateral"><img src="./imagens/home.svg" alt=""> <span
+                    id="txt-tit1">INÍCIO</span></div>
+            <div id="menu-quadra" class="icone-lateral"><img src="./imagens/quadra.svg" alt=""><span
+                    id="txt-tit2">JOGOS</span></div>
+            <div id="menu-news" class="icone-lateral"><img src="./imagens/newspaper.svg" alt=""><span
+                    id="txt-tit3">NOTÍCIAS</span> </div>
+            <div id="menu-perfil" class="icone-lateral"><img src="./imagens/perfil.svg" alt=""><span
+                    id="txt-tit4">PERFIL</span></div>
+        </div>
+
+        <div id="apresentacao">
+            <div id="botao-login">
+                <div id="forme">
+                    <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                        <div>
+                            <p>Nome completo</p>
+                            <input type="text" name="nome" class="input-padrao" autofocus="autofocus"
+                                placeholder="Nome e sobrenome" required minlength="4">
+                        </div>
+                        <div>
+                            <p>E-mail</p>
+                            <input type="text" name="login" class="input-padrao" placeholder="Seu e-mail" required
+                                minlength="4">
+                        </div>
+                        <div id="form-flex1">
+                            <div id="espac">
+                                <p>Usuário</p>
+                                <input type="text" name="login" class="input-padrao" placeholder="Seu nome de usuário"
+                                    required minlength="4">
+                            </div>
+                            <div>
+                                <p>Senha</p>
+                                <input type="password" name="login" class="input-padrao" placeholder="Sua senha"
+                                    required minlength="4">
+                            </div>
+                        </div>
+
+                        <div id="form-flex2">
+                            <div>
+                                <p>Data Nascimento</p>
+                                <input type="date" name="login" class="input-padrao" required minlength="4">
+                            </div>
+                            <div>
+                                <p>Sexo</p>
+                                <select name="" id="">
+                                    <option hidden>SELECIONAR SEXO</option>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="outro">Outro</option>
+                                    <option value="naoEspecificado">Prefiro não especificar</option>
+                                </select>
+                            </div>
+                            <div>
+                                <p>Jogador Favorito</p>
+                                <select name="" id="">[
+                                    <option hidden>SELECIONAR JOGADOR</option>
+                                    <option value="1">João Paulo</option>
+                                    <option value="2">Pará</option>
+                                    <option value="3">Kaiky</option>
+                                    <option value="4">Luan Peres</option>
+                                    <option value="5">Felipe Jonatan</option>
+                                    <option value="6">Alison</option>
+                                    <option value="7">Carlos Sanchez</option>
+                                    <option value="8">Pirani</option>
+                                    <option value="9">Marinho</option>
+                                    <option value="10">Kaio Jorge</option>
+                                    <option value="11">Lucas Braga</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="inpt_cadastrar">
+                                
+                                <input type="submit" id="btn_entrar" value="CADASTRAR" class="btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

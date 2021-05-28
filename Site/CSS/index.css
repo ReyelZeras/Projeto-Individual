@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.containerleft {
+  background-color: black;
+  width: 260px;
+  height: 657px;
+  border-right: 4px solid #f1af09;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.logo{
+  float: left;
+  margin: 0 0;
+  border-bottom: 1px solid #f1af09;
+  /* background-color: black; */
+}
+
+.img_logo{
+padding-left: 0;
+width: 250px;
+}
+
+.home {
+  margin-top: 50px;
+  width: 90px;
+  height: 90px;
+  border-bottom: 1px solid #f1af09;
+  cursor: pointer;
+  /* background-color: white; */
+}
+.perfil {
+  margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  border-bottom: 1px solid #f1af09;
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+.jogos {
+  margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  border-bottom: 1px solid #f1af09;
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+.noticias {
+  margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  border-bottom: 1px solid #f1af09;
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  display: flex;
+  
+}
